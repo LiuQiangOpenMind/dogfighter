@@ -1,5 +1,5 @@
 from common.units.unit import Unit
-from bp_env.env_def import MissileType
+from env.env_def import MissileType
 
 
 class A2A(Unit):
