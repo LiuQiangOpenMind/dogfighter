@@ -1,6 +1,6 @@
-from bp_env.env_manager import EnvManager
-from bp_env.env_client import EnvClient
-from bp_env.env_cmd import EnvCmd
+from env.env_manager import EnvManager
+from env.env_client import EnvClient
+from env.env_cmd import EnvCmd
 
 import time
 import random
