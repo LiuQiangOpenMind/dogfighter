@@ -1,6 +1,6 @@
-from bp_env import EnvCmd
-from bp_env.env_def import RED_AIRPORT_ID, BLUE_AIRPORT_ID
-from bp_env.env_def import UnitType
+from env import EnvCmd
+from env.env_def import RED_AIRPORT_ID, BLUE_AIRPORT_ID
+from env.env_def import UnitType
 
 
 class CommandDefault(object):
