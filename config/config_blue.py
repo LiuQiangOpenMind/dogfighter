@@ -1,9 +1,9 @@
-from bp_env.nj01_env import NJ01Env
+from env.nj01_env import NJ01Env
 # from player.red.agent_player import PlayerConfig, NJ01Player
 from player.blue.dog_fight_player import PlayerConfig, DogFightPlayer
 from player.blue.cetc28 import BluePlayer
 
-from bp_env.env_def import MapInfo, SideType
+from env.env_def import MapInfo, SideType
 
 from drill.api.bp.agent.features.types import PlainFeature, RangedFeature, CategoricalFeature, VectorFeature
 from drill.api.bp.agent.features.templates import SpatialFeatureTemplate, EntityFeatureTemplate, CommonFeatureTemplate, ActionMaskFeatureTemplate
@@ -174,7 +174,7 @@ gear_config = {
         'scen_name': '/home/Joint_Operation_scenario.ntedt',
         'prefix': PREFIX,
         # 'image_name': 'registry.inspir.ai:5000/sim_fast:v1.3.1',
-        'image_name': 'registry.inspir.ai:5000/sim_fast:v2.5',
+        'image_name': 'registry.inspir.ai:5000/sim_fast:v2.8',
         # 'image_name': 'registry.inspir.ai:5000/combatmodserver:v1.4',
         'sim_speed': 20,            # 模拟速度
     },
