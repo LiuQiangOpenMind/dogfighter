@@ -2,8 +2,8 @@ from drill.api.bp.gear.agent import AgentInterface, AgentStat
 from collections import deque, defaultdict
 import numpy as np
 
-from bp_env.env_util import get_type_num, get_weapon_num
-from bp_env.env_def import UnitType, RED_AIRPORT_ID, MapInfo, SideType, MissileType
+from env.env_util import get_type_num, get_weapon_num
+from env.env_def import UnitType, RED_AIRPORT_ID, MapInfo, SideType, MissileType
 from common.cmd import Command
 from common.grid import MapGrid
 # from player.red.rule_player import RulePlayer
