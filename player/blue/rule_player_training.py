@@ -1,4 +1,4 @@
-from bp_env.env_def import UnitType, BLUE_AIRPORT_ID, MapInfo
+from env.env_def import UnitType, BLUE_AIRPORT_ID, MapInfo
 from common.cmd import Command
 from common.grid import MapGrid
 from common.interface.base_rule import BaseRulePlayer
